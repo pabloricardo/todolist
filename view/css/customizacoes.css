@@ -1,0 +1,27 @@
+body{
+	background-color: #E8E8E8;
+}
+
+.display-none{
+	display: none;
+}
+
+.container{
+	padding-top: 20px;
+}
+
+.panel-info {
+    background-color: #2495B6;
+}
+
+.panel-info>.panel-heading {
+    color: black;
+    background-color: #2495B6;
+    border-color: white;
+    font-size: 18px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#descricao,.btn-info{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
