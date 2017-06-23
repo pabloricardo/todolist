@@ -20,7 +20,7 @@
 						    <div class="input-group">
 						      <input type="text" class="form-control" placeholder="Descrição do Novo Item" id="descricao" name="descricao" autofocus>
 						      <div class="input-group-btn">
-						        <button class="btn btn-info" type="button">Adicionar
+						        <button class="btn btn-info" type="button" id="adicionar-item">Adicionar
 						        	<span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
 						        </button>
 						      </div>
@@ -31,7 +31,7 @@
 				</div>
 
 
-			  <ul class="list-group display-none" id="list">
+			  <ul class="list-group " id="list" name="list">
 
 			  </ul>
 
