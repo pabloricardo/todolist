@@ -12,16 +12,26 @@ body{
 
 .panel-info {
     background-color: #2495B6;
+    border-radius: 10px;
 }
 
 .panel-info>.panel-heading {
     color: black;
     background-color: #2495B6;
     border-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
     font-size: 18px;
     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#descricao{
+    color: black;
 }
 
 #descricao,.btn-info{
     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.erro{
+    color: #790c0c;
 }

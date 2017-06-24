@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Makes "field" always required. Nothing and blanks are invalid.</title>
+<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+ 
+</head>
+<body>
+<form id="myform">
+<label for="field">Required: </label>
+<input type="text" class="left" id="field" name="field">
+<br/>
+<input type="submit" value="Validate!">
+</form>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.validate.js"></script>
+<script src="https://cdn.jsdelivr.net/j
+query.validation/1.16.0/additional-methods.min.js"></script>
+<script>
+// just for the demos, avoids form submit
+
+$( "#myform" ).validate({
+  rules: {
+    field: {
+      required: true
+    }
+  }
+});
+</script>
+</body>
+</html>
