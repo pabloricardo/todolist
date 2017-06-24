@@ -35,3 +35,15 @@ body{
 .erro{
     color: #790c0c;
 }
+
+.col-acoes{
+    width: 150px;
+}
+
+.concluido{
+    text-decoration: line-through;
+}
+
+.button-concluido{
+    background-color: #928b8b;
+}
