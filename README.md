@@ -1,5 +1,5 @@
 Resumo
-	Foi desenvolvido um To-Do List, que permite ao usuário cadastrar, marca como concluído e deletar um item da sua lista.
+	Foi desenvolvido um To-Do List, que permite ao usuário cadastrar, marcar como concluído e deletar um item da sua lista.
 
 Acesso
 	O projeto pode ser acessado no site:
@@ -17,7 +17,7 @@ Configuração local do ambiente
 	Após instalar um dos programas acima, baixar os arquivos no link descrito em Versionameto, procurar pela pasta instalada do(Wamp ou Xampp) entrar na pasta base de acesso ao ambiente e abrir em seu navegador digitando localhost e acessar a pasta do projeto conforme configurado.
 	Para instalar e configurar o wamp pode seguir o vídeo:
 	https://www.youtube.com/watch?v=WGMeWEhChLQ
-	O banco de dados deve ser importado no phpMyAdmin, para isso acesse no seu navegador o phpMyAdmin digitando na barra de endereço do navegador "locahost" (localhost - phpMyAdmin), importe o banco "item.sql" que se encontra nos arquivos baixados na bd.
+	O banco de dados deve ser importado no phpMyAdmin, para isso acesse no seu navegador o phpMyAdmin digitando na barra de endereço do navegador "localhost" (localhost - phpMyAdmin), importe o banco "item.sql" que se encontra nos arquivos baixados na pasta bd.
 	Para importar o banco pode seguir o vídeo:
 	https://www.youtube.com/watch?v=eACTtN-ifGU
 
