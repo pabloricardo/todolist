@@ -15,7 +15,7 @@
 			       			<td><?php echo $row['Descricao'] ?></td>
 			       			<td class="text-center">
 			       			<button type="button" class="btn btn-default btn-xs"><i class="fa fa-check" aria-hidden="true" data-toggle="modal" onclick="concluirItem(<?php echo $row['Id'] ?>)"></i></button>
-			       			<button type="submit" onclick="deletarItem(<?php echo $row['Id'] ?>)" class="btn btn-danger btn-xs"><i class="fa fa-times" aria-hidden="true"></i></button>
+			       			<button type="button" onclick="deletarItem(<?php echo $row['Id'] ?>)" class="btn btn-danger btn-xs"><i class="fa fa-times" aria-hidden="true"></i></button>
 			       			</td>
 			       		</tr>
 			       <?php
